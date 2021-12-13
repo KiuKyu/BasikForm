@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .choice {
+            color: orange;
+        }
+
+        td {
+            width: 120px;
+        }
+
+        .title {
+            width: 50px;
+            color: blue;
+            text-align: right;
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <form method="GET">
+        <tr>
+            <td colspan="4" style="background-color: darkorange;color: white; text-transform: uppercase">Sở thích của
+                bạn
+            </td>
+        </tr>
+        <tr>
+            <td class="title">Họ và tên</td>
+            <td colspan="3">
+                <input type="text" size="35">
+            </td>
+        </tr>
+        <tr>
+            <td class="title">Email</td>
+            <td colspan="3">
+                <input type="text" size="30">
+            </td>
+        </tr>
+        <tr>
+            <td class="title">Sở thích</td>
+            <td class="choice">
+                <input type="checkbox"> Thể thao
+            </td>
+            <td class="choice">
+                <input type="checkbox"> Âm nhạc
+            </td>
+            <td class="choice">
+                <input type="checkbox"> Đọc sách
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="choice">
+                <input type="checkbox"> Lướt web
+            </td>
+            <td class="choice">
+                <input type="checkbox"> Chơi game
+            </td>
+            <td class="choice">
+                <input type="checkbox"> Điện ảnh
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="choice" colspan="3">
+                <input type="checkbox"> Du lịch
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3">
+                <input type="submit" value="Gửi thông tin">
+                <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+    </form>
+</table>
+</body>
+</html>
