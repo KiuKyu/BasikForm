@@ -22,7 +22,7 @@
 </head>
 <body>
 <table>
-    <form method="GET">
+    <form method="POST">
         <tr>
             <td colspan="4" style="background-color: darkorange;color: white; text-transform: uppercase">Sở thích của
                 bạn
@@ -31,43 +31,43 @@
         <tr>
             <td class="title">Họ và tên</td>
             <td colspan="3">
-                <input type="text" size="35">
+                <input type="text" size="35" name="name">
             </td>
         </tr>
         <tr>
             <td class="title">Email</td>
             <td colspan="3">
-                <input type="text" size="30">
+                <input type="text" size="30" name="email">
             </td>
         </tr>
         <tr>
             <td class="title">Sở thích</td>
             <td class="choice">
-                <input type="checkbox"> Thể thao
+                <input type="checkbox" name="sport"> Thể thao
             </td>
             <td class="choice">
-                <input type="checkbox"> Âm nhạc
+                <input type="checkbox" name="music"> Âm nhạc
             </td>
             <td class="choice">
-                <input type="checkbox"> Đọc sách
+                <input type="checkbox" name="book"> Đọc sách
             </td>
         </tr>
         <tr>
             <td></td>
             <td class="choice">
-                <input type="checkbox"> Lướt web
+                <input type="checkbox" name="web"> Lướt web
             </td>
             <td class="choice">
-                <input type="checkbox"> Chơi game
+                <input type="checkbox" name="game"> Chơi game
             </td>
             <td class="choice">
-                <input type="checkbox"> Điện ảnh
+                <input type="checkbox" name="photo"> Điện ảnh
             </td>
         </tr>
         <tr>
             <td></td>
             <td class="choice" colspan="3">
-                <input type="checkbox"> Du lịch
+                <input type="checkbox" name="travel"> Du lịch
             </td>
         </tr>
         <tr>
